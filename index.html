@@ -28,7 +28,19 @@
   .foot{margin:0 auto;padding:16px 20px calc(104px + env(safe-area-inset-bottom));font-size:11px;line-height:1.65}
   .foot>div{margin-top:7px!important}
 }
-</style></head><body>
+</style>
+  
+<meta property="og:type" content="website">
+<meta property="og:title" content="DEEPAM · The Art of Light">
+<meta property="og:description" content="Create your own beautiful Diwali greeting. Customize the colours and share the light!">
+<meta property="og:url" content="https://vigneswaranmba20-afk.github.io/Deepam-/">
+<meta property="og:image" content="https://vigneswaranmba20-afk.github.io/Deepam-/deepam-share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+  
+          
+  </head><body>
 <header class="header"><div class="logo">DEEPAM <small>THE ART OF LIGHT</small></div><div class="header-right">✦ HANDCRAFTED DIGITAL GREETINGS · FREE ✦</div></header>
 <main class="app"><div class="topline"><div><h1>Make someone's Diwali glow.</h1><p>Choose art · Add a name · Share the light</p></div><span class="free">✧ 100% FREE</span></div><div class="workspace"><div class="artarea"><div class="artframe"><canvas id="art" width="1000" height="1250" role="img" aria-label="Live preview of your personalized Diwali greeting"></canvas></div><div class="art-caption">✦ <span></span> LIVE PREVIEW <span></span> ✦</div></div><section class="editor" id="editor" aria-label="Customize your greeting"><div class="sheethead"><strong>✦ Customize your greeting</strong><button type="button" id="closeEditor" class="tiny">✕ Done</button></div><div class="section-title">01 / Pick a beautiful design</div><div class="stylestrip" id="styles" aria-label="Greeting designs"></div><div class="rowlabel"><strong>02 / Make it yours</strong><small>Changes appear instantly</small></div><div class="fields"><div class="field"><label for="to">Recipient's name</label><input class="input" id="to" maxlength="34" value="A beautiful soul" placeholder="For someone special"></div><div class="field"><label for="from">From</label><input class="input" id="from" maxlength="34" value="VER" placeholder="Your name"></div></div><div class="field" style="margin-top:10px"><label for="message">Your personal blessing</label><textarea class="input message" id="message" maxlength="180">May your days be filled with light, love and beautiful new beginnings.</textarea></div><div class="rowlabel"><strong>03 / Choose your colours</strong><small id="paletteName">Heritage gold</small></div><div class="paletteStrip" id="palettes" aria-label="Colour palettes"></div><div class="controlrow"><button class="tiny" id="surprise" type="button">✦ Surprise me</button><button class="tiny" id="replay" type="button">↺ Replay light</button><label class="toggle"><input type="checkbox" id="animate" checked> Animate</label></div><div class="tools desktop-tools"><button class="action outline" id="downloadDesktop" type="button">↓ Download PNG</button><button class="action" id="shareDesktop" type="button">↗ Share image</button></div><div class="subnote">No account, watermark, payment or API key. Your greeting stays on your device until you share it. Original digital artwork inspired by Indian rangoli and kolam traditions.</div></section></div></main><div class="backdrop" id="backdrop"></div><div class="bottom"><button class="action outline" id="editMobile" type="button">✎ Customize</button><button class="action outline" id="downloadMobile" type="button">↓ Download PNG</button><button class="action" id="shareMobile" type="button">↗ Share image</button></div><footer class="foot">DEEPAM — A VER CREATION · The Living Light · Made to celebrate beauty, kindness and the joy of sharing.<div style="margin-top:9px;font-size:11px;line-height:1.65;opacity:.84">© 2026 VIGNESWARAN E R (VER). All rights reserved.<span style="display:block">Free to create and share personal greetings · Website code and original artwork reserved.</span></div></footer><div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script>
